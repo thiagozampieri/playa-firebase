@@ -37,7 +37,6 @@ const App = ({ firebase, classes }) => {
       if (arrWhere.length > 0) where_string = `WHERE ${arrWhere.join(' AND ')}`;
 
       const query = `SELECT * FROM playas ${where_string}`;
-      console.log(query);
       await firebase.fireSQL().query(query)
       .then(snapshot => {
         const playas = [];
