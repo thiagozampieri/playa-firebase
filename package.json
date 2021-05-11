@@ -19,7 +19,7 @@
     "firebase": "^7.7.0",
     "firebase-admin": "^8.9.2",
     "firesql": "^2.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mime": "^2.4.4",
     "mime-types": "^2.1.26",
     "react": "^16.12.0",
